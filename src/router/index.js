@@ -2,7 +2,7 @@ import { Router } from 'express'
 const router = Router()
 
 //De la raiz renderiza un archivo llamado index.ejs
-router.get('/index', (req, res) =>{
+router.get('/', (req, res) =>{
     res.render('index',{title: 'Ignite Gym'});
 });
 router.get('/servicios', (req, res) =>{
