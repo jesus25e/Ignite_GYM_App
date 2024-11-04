@@ -5,6 +5,9 @@ const router = Router()
 router.get('/', (req, res) =>{
     res.render('index',{title: 'Ignite Gym'});
 });
+router.get('/index',(req,res)=>{
+    res.render('index',{title:'Ignite Gym'})
+})
 router.get('/servicios', (req, res) =>{
     res.render('servicios',{title: 'Servicios'});
 });
