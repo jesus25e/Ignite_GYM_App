@@ -17,8 +17,8 @@ body, html {
     height: 100%;
     background: linear-gradient(
         0deg,
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     ),url("../img/login-fondo.png") no-repeat center center;
     background-size: cover;
 }

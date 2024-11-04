@@ -21,4 +21,7 @@ router.get('/productos', (req, res) => {
 router.get('/login', (req,res) =>{
     res.render('login',{title:'Login'})
 })
+router.get('/nosotros',(req,res) =>{
+    res.render('nosotros',{title:'Acerca de Nosotros'})
+})
 export default router
